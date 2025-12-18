@@ -1,5 +1,9 @@
 #include "binary_trees.h"
 
+/* Helper prototypes (or just define them above) */
+size_t leftmost_depth(const binary_tree_t *tree);
+int is_perfect(const binary_tree_t *tree, size_t depth, size_t level);
+
 /**
  * binary_tree_is_perfect - Checks if a binary tree is perfect
  * @tree: Pointer to the root node
